@@ -77,6 +77,7 @@ class Backup
       options = {
         provider: 'AWS',
         region: SiteSetting.s3_region.blank? ? "us-east-1" : SiteSetting.s3_region,
+        endpoint: 'https://s3.amazonaws.com',
       }
       if (SiteSetting.s3_use_iam_profile.present?)
         options.merge!(:use_iam_profile => true)
