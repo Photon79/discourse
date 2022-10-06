@@ -36,7 +36,8 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
-    addressable (2.3.6)
+    addressable (2.8.1)
+      public_suffix (>= 2.0.2, < 6.0)
     airbrake (3.1.2)
       activesupport
       builder
@@ -245,6 +246,7 @@ GEM
       pry (~> 0.9.10)
     pry-rails (0.3.2)
       pry (>= 0.9.10)
+    public_suffix (5.0.0)
     puma (2.7.1)
       rack (>= 1.1, < 2.0)
     qunit-rails (0.0.7)
